@@ -1,0 +1,389 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+   
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600 !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn_line_height li {
+    line-height: 1.5!important;    
+}
+.heading_second h5{
+    font-weight: 600;
+}
+.heading_second p{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.popular_product {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin: 6rem 0 !important;
+}
+.section_space{
+  margin: 6rem 0;
+}
+.about_learn li {
+  padding: 37px 59px;
+}
+.about_learn li a {
+  padding: 10px 0px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  font-size: 18px;
+}
+.product_name{
+  text-align: center;
+  padding-top: 1rem;
+  color: #011757;
+}
+.ser_img{
+  height: 236px !important;
+}
+.footer {
+  background-color: #EBF3FD;
+  padding: 33px 0;
+  margin-top: 7rem;
+}
+/* <about> */
+.why-choose-us {
+  margin: auto;
+}
+
+.why-choose-us h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us ul li {
+  background: #ffffff;
+  margin-bottom: 12px;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* about end */
+.apple_icon{
+  font-size: 35px !important;
+}
+.apple_btn{
+  align-items: center;
+  padding: 0 7px !important;
+  line-height: 1.3 !important;
+}
+.apple_mob{
+  margin-left: 1.5rem !important;
+}
+.btn_line_height li{
+  line-height: 1.5 !important;
+}
+.app_down_mob{
+  font-size: 10px;
+}
+.app_store_text {
+  font-size: 16px;
+  font-weight: 600;
+}
+.apple_google{
+  margin-top: 2.4rem;
+}
+.contact_btn{
+  background: #272e7e;
+  border-radius: 6px;
+}
+.contact_btn:hover{
+ color: #fff !important;
+}
+.banner_prar h1{
+  color: #011757;
+  font-size: 5rem;
+  font-style: italic;
+}
+.banner_prar h2{
+  color: #55AFFF;
+  font-size: 2.2rem;
+  font-style: italic;
+}
+.banner_prar span{
+    color: #fff;
+    background: #011757;
+    padding: 9px;
+    margin-left: 4rem;
+}
+.banner_prar p{
+  margin-top: 1.5rem;
+  width: 75%;
+}
+.product_cards_h1{
+  color: #011757;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.nav-link{
+  color: #000 !important;
+  padding: 5px 33px !important;
+}
+.nav-link:hover{
+  border-bottom: 2px solid #55afff;
+}
+.card_heading{
+  border: none !important;
+  border-radius: 33px !important;
+  padding: 5px;
+}
+.card_heading_para{
+  font-size: 14px;
+}
+.active {
+  color: #55afff !important;
+}
+
+
+.img_rad{
+  border-radius: 12px;
+}
+.navbar-expand-lg {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+.footer_label{
+  background-color: #011757;
+  padding: 12px 0;
+  margin-top: 1rem;
+  color: #fff;
+}
+.footer_label ul li{
+  padding-left: 9rem;
+}
+.footer_label ul li p{
+margin: 0!important;
+}
+/* tablet screen */
+@media (max-width: 991px) {
+  .banner_prar {
+    margin-top: 1rem;
+}
+#contact_mob {
+  width: 81px;
+  padding-left: 13px !important;
+}
+.vision_para p{
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.tab_f_p p{
+font-size: 14px;
+}
+.row_vision {
+  margin: 1rem !important;
+}
+.banner_prar h1 {
+  font-size: 1rem;
+}
+.ouvision_p p {
+  font-size: 13px;
+}
+.nav-link {
+  padding-left: 0 !important;
+}
+.active {
+  border-bottom: 0px !important;
+}
+.four_step_cards {
+  width: auto !important;
+}
+.steps_para {
+  font-size: 11px;
+}
+.banner_prar p {
+  margin-top: 0rem;
+  width: 100%;
+  font-size: 13px;
+}
+.apple_google {
+  margin-top: 0rem;
+}
+.heading_second li p{
+  font-size: 12px;
+}
+
+.apple_icon {
+  font-size: 29px !important;
+}
+.product_cards .card-footer {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 13px;
+}
+.product_cards_h1{
+  margin-top: 1rem;
+}
+.card_heading {
+  border-radius: 16px !important;
+}
+.card_h_body{
+  padding: 5px !important;
+}
+.card_h_body p{
+  font-size: 12px;
+}
+.card_h_body h5{
+  font-size: 1rem ;
+}
+}
+/* Mobile Screen */
+@media (max-width: 767px) {
+  .mob_cow {
+    margin-top: 3rem;
+}
+.mob_circle{
+  margin-bottom: 1.5rem;
+}
+.tab_f_p{
+  margin-bottom: 1.2rem;
+}
+.nnn{
+  display: flex;
+  justify-content: center;
+}
+.mob_footer_center{
+  text-align: center;
+}
+.mob_foot_center{
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+.vision_card h2 {
+  font-size: 22px;
+}
+.banner_prar h1 {
+  font-size: 4rem;
+}
+.banner_prar h2 {
+    font-size: 1.8rem;
+}
+.row_vision {
+  margin: 1.5rem 0rem !important;
+}
+.four_step_cards {
+  margin-bottom: 33px;
+}
+.vision_img {
+  float: unset;
+}
+.mob_vision_img{
+  text-align: center;
+}
+.card_heading {
+  margin-bottom: 5rem;
+  border-radius: 57px !important;
+}
+.card_h_body p {
+  font-size: 16px;
+}
+.card_heading {
+  padding: 21px;
+}
+.card_h_body {
+  padding: 16px !important;
+}
+.card_h_body h5 {
+  font-size: 1.5rem;
+}
+.apple_google{
+  justify-content: center;
+}
+.popular_product {
+  margin: 5rem 0 !important;
+}
+.product_cards {
+  border-radius: 76px !important;
+}
+.product_cards_h1 {
+  display: none;
+}
+.product_cards{
+  margin-top: 3rem;
+}
+.about_learn li a {
+  font-size: 15px;
+}
+.about_learn li {
+  padding: 20px 18px;
+}
+.about_para_mob{
+  font-size: 12px;
+}
+.app_store_text {
+  font-size: 11px !important;
+}
+.mob_serv_none{
+  display: none;
+}
+.mob_serv_H{
+  margin-top: 1rem;
+}
+}
+
+
+.site-footer {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 50px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #38bdf8;
+}
+
+.footer-box p,
+.footer-box li {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #d1d5db;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #334155;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #9ca3af;
+}
